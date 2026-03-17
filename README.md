@@ -121,7 +121,7 @@ Bypass GRUB
 ```
 **Superimposed with Root Cause 3, it is speculated that the power management strategy we set in GRUB to force high-performance operation does not take effect after bypassing GRUB**
 > The essence of triggering the problem has not been fully identified, but it is not necessary; the solution idea for this is clear: force the BIOS's UEFI to boot from Ubuntu and only use shutdown instead of restart in Windows to ensure passing through GRUB.
-![System Diagram](images/flowchart.png)
+![System Diagram](flowchart.png)
 
 # Failed Attempts
 1. When running the Linux system with the RTL9210B hard drive enclosure: replacing USB ports, suspecting temperature issues, suspecting power supply issues, replacing systems, trying [this community article](https://hackmd.io/@BigDick/SycHO3NFZl)
