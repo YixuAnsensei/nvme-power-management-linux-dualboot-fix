@@ -3,6 +3,12 @@
 ![Status](https://img.shields.io/badge/status-stable-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Status](https://img.shields.io/badge/status-stable-blue)
+## Table of Contents
+
+- [Abstract](#abstract)
+- [Introduction](#introduction)
+- [Problems](#problems)
+- [Solutions](#solutions)
 > If your NVMe SSD shows **0B capacity**, randomly **disappears**, or **fails after reboot** in Linux or dual-boot setups — this guide provides a **proven fix**.
 
 > A system-level issue caused by the interaction between NVMe power management, platform firmware, and OS initialization.
